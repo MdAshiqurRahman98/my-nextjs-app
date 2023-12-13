@@ -8,10 +8,10 @@ const HomePage = () => {
       <h1>This is Next.js app</h1>
       <Counter></Counter>
       <Link href="/about">
-        <button className="btn btn-accent">About</button>
+        <button className="btn btn-sm btn-accent">About</button>
       </Link>
       <Link href="/news">
-        <button className="btn btn-accent">News</button>
+        <button className="btn btn-sm btn-accent">News</button>
       </Link>
     </div>
   );
